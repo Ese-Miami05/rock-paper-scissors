@@ -9,7 +9,7 @@ function getComputerChoice(){
     }
     
     function getHumanChoice(){
-        let humanChoice = prompt("rock, paper or scissors? pick one!").toLowerCase();
+        let humanChoice = prompt("Choose one: rock, paper or scissors?").toLowerCase();
         for(let i =0; i < gameWords.length; i++){
             if(humanChoice === gameWords[i]){
                 return humanChoice;
