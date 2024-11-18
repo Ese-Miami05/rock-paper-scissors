@@ -15,7 +15,7 @@ function getComputerChoice(){
                 return humanChoice;
             } 
              } 
-                return "Please choose the correct word!";
+                return " Invalid!";
              
     }
 
